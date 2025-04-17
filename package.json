@@ -5,7 +5,8 @@
   "main": "build.js",
   "scripts": {
     "build": "node build.js",
-    "serve": "live-server public"
+    "serve": "live-server public",
+    "deploy": "node deploy.js"
   },
   "dependencies": {
     "fs-extra": "^11.1.1",
